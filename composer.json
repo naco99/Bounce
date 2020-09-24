@@ -1,0 +1,27 @@
+{
+    "name": "nacal/bounce",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nacer ALI",
+            "email": "nacer99@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "laravel/framework": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NacAL\\Bounce\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NacAL\\Bounce\\Providers\\BounceServiceProvider"
+            ]
+        }
+    }
+}
